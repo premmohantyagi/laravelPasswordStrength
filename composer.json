@@ -1,0 +1,41 @@
+{
+    "name": "premmohantyagi/password-strength",
+    "description": "This Repo provides a validator for ensuring strong passwords in Laravel 6 applications.",
+    "keywords": [
+        "laravel",
+        "laravel6",
+        "laravel 6",
+        "validation",
+        "password",
+        "password strength"
+    ],
+    "authors": [
+        {
+            "name": "PM Tyagi",
+            "email": "premmohantyagi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "*",
+        "illuminate/translation": "*"
+    },
+    "require-dev": {
+        "illuminate/validation": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Extreme\\PasswordStrength": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Extreme\\PasswordStrength\\PasswordStrengthServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}

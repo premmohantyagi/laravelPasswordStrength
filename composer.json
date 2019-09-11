@@ -1,5 +1,5 @@
 {
-    "name": "Extreme/password-strength",
+    "name": "extreme/password-strength",
     "description": "This Repo provides a validator for ensuring strong passwords in Laravel 6 applications.",
     "keywords": [
         "laravel",

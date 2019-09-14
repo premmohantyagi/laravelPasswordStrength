@@ -1,6 +1,5 @@
-# laravelPasswordStrength
-================
-This Repo provides a validator that ensures strong passwords in Laravel 6 applications.
+## laravelPasswordStrength
+This package provides a validator that ensures strong passwords in Laravel 6 applications.
 The provided validations include:
 
 - check if input contains alphabetic characters
